@@ -8,4 +8,5 @@ git clone git://github.com/askmike/gekko.git -b stable
 npm install sqlite3@3.1.4
 cd gekko/
 npm install --only=production
-screen -S tf2 node gekko --ui
+screen 
+node gekko --ui
